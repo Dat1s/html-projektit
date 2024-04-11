@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="productModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modal-image" src="" alt="Product Image">
+            <div id="modal-description">
+                <h2></h2>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/gucci1.PNG" alt="belt 1" id="gucci1-image" onclick="openModal('img/gucci1.PNG', 'GG Marmont reversible belt', 'Description of GG Marmont reversible belt.', '$470.00')">
+            <div id="belt1-description" class="description">
+                <h2>GG Marmont reversible belt</h2>
+                <p>Description of GG Marmont reversible belt.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/gucci2.PNG" alt="belt 2" id="gucci2-image" onclick="openModal('img/gucci2.PNG', 'GG Marmont leather belt with shiny buckle', 'Description of GG Marmont leather belt with shiny buckle.', '$470.00')">
+            <div id="belt2-description" class="description">
+                <h2>GG Marmont leather belt with shiny buckle</h2>
+                <p>Description of GG Marmont leather belt with shiny buckle.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/gucci3.PNG" alt="belt 3" id="gucci3-image" onclick="openModal('img/gucci3.PNG', 'Leather belt with Double G buckle', 'Description of Leather belt with Double G buckle.', '$470.00')">
+            <div id="belt3-description" class="description">
+                <h2>Leather belt with Double G buckle</h2>
+                <p>Description of Leather belt with Double G buckle.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/gucci4.PNG" alt="belt 4" id="gucci4-image" onclick="openModal('img/gucci4.PNG', 'GG Supreme belt with G buckle', 'Description of GG Supreme belt with G buckle.', '$470.00')">
+            <div id="belt4-description" class="description">
+                <h2>GG Supreme belt with G buckle</h2>
+                <p>Description of GG Supreme belt with G buckle.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/lv1.PNG" alt="belt 5" id="lv1-image" onclick="openModal('img/lv1.PNG', 'Louis Vuitton Belt Initiales Damier Graphite Black', 'Description of Louis Vuitton Belt Initiales Damier Graphite Black.', '$470.00')">
+            <div id="belt5-description" class="description">
+                <h2>Louis Vuitton Belt Initiales Damier Graphite Black</h2>
+                <p>Description of Louis Vuitton Belt Initiales Damier Graphite Black.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/lv2.PNG" alt="belt 6" id="lv2-image" onclick="openModal('img/lv2.PNG', 'Louis Vuitton Belts', 'Description of Louis Vuitton Belts.', '$470.00')">
+            <div id="belt6-description" class="description">
+                <h2>Louis Vuitton Belts</h2>
+                <p>Description of Louis Vuitton Belts.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/lv3.PNG" alt="belt 7" id="lv3-image" onclick="openModal('img/lv3.PNG', 'Louis Vuitton Belts', 'Description of Louis Vuitton Belts.', '$470.00')">
+            <div id="belt7-description" class="description">
+                <h2>Louis Vuitton Belts</h2>
+                <p>Description of Louis Vuitton Belts.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/lv4.PNG" alt="belt 8" id="lv4-image" onclick="openModal('img/lv4.PNG', 'Siza Fashion LV Belt Gray', 'Description of Siza Fashion LV Belt Gray.', '$470.00')">
+            <div id="belt8-description" class="description">
+                <h2>Siza Fashion LV Belt Gray</h2>
+                <p>Description of Siza Fashion LV Belt Gray.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/diesel.PNG" alt="belt 9" id="diesel-image" onclick="openModal('img/diesel.PNG', 'Genuine Leather Designer Buckle Belt', 'Description of Genuine Leather Designer Buckle Belt.', '$470.00')">
+            <div id="belt9-description" class="description">
+                <h2>Genuine Leather Designer Buckle Belt</h2>
+                <p>Description of Genuine Leather Designer Buckle Belt.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/diesel2.PNG" alt="belt 10" id="diesel2-image" onclick="openModal('img/diesel2.PNG', 'FARFETCH Canada', 'Description of FARFETCH Canada.', '$470.00')">
+            <div id="belt10-description" class="description">
+                <h2>FARFETCH Canada</h2>
+                <p>Description of FARFETCH Canada.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/diesel3.PNG" alt="belt 11" id="diesel3-image" onclick="openModal('img/diesel3.PNG', 'FARFETCH', 'Description of FARFETCH.', '$470.00')">
+            <div id="belt11-description" class="description">
+                <h2>FARFETCH</h2>
+                <p>Description of FARFETCH.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-details">
+            <img src="img/diesel4.PNG" alt="belt 12" id="diesel4-image" onclick="openModal('img/diesel4.PNG', 'FARFETCH', 'Description of FARFETCH.', '$470.00')">
+            <div id="belt12-description" class="description">
+                <h2>FARFETCH</h2>
+                <p>Description of FARFETCH.</p>
+                <p>$470.00</p>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    
+
+</body>
+</html>
